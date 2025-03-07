@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.basic-width {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title {
+    text-align: center;
+    color: #153416;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.subtitle {
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: #153416;
+}
+
+.form {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.first-name,
+.user-message,
+.user-phone,
+.user-email {
+    padding: 15px 20px;
+    background-color: #d1cbcb;
+    border-radius: 12px;
+    border: 1px solid #d1cbcb;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.user-message {
+    resize: none;
+}
+
+.user-btn {
+    padding: 15px 20px;
+    background-color: #153416;
+    border-radius: 12px;
+    border: 1px solid #153416;
+    color: #fff;
+    width: 100%;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.valid {
+    border: 2px solid green;
+}
+
